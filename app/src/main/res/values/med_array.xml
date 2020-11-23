@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="med_array">
+        <item>관절염약</item>
+        <item>수면제</item>
+        <item>콜레스테롤약</item>
+        <item>진통제</item>
+        <item>종합감기약</item>
+        <item>헐압약</item>
+        <item>항생제</item>
+        <item>항히스타민제</item>
+        <item>변비약</item>
+        <item>빈혈약</item>
+        <item>비타민</item>
+        <item>비타민C</item>
+        <item>비타민B</item>
+        <item>고지혈증약</item>
+        <item>무좀약</item>
+        <item>아스피린</item>
+        <item>종합비타민</item>
+        <item>종합비타민(탄닌포함)</item>
+        <item>철분</item>
+        <item>셀레늄</item>
+        <item>아연</item>
+        <item>오메가3</item>
+        <item>아스피린</item>
+        <item>당뇨병약</item>
+
+
+    </string-array>
+</resources>

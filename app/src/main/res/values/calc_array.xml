@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sex_array">
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
+
+    <string-array name="sex_empty_array">
+        <item>상관없음</item>
+    </string-array>
+
+    <string-array name="medlist_array">
+        <item>비타민A</item>
+        <item>비타민B6</item>
+        <item>비타민C</item>
+        <item>비타민D</item>
+        <item>비타민E</item>
+        <item>마그네슘</item>
+        <item>철분</item>
+        <item>티아민</item>
+        <item>리보플래빈</item>
+        <item>니아신</item>
+        <item>엽산</item>
+        <item>칼슘</item>
+        <item>인</item>
+        <item>아연</item>
+    </string-array>
+
+</resources>

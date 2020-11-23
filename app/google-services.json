@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "61806661968",
+    "firebase_url": "https://hanium-6a6ca.firebaseio.com",
+    "project_id": "hanium-6a6ca",
+    "storage_bucket": "hanium-6a6ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61806661968:android:af8de24688c320d0769c55",
+        "android_client_info": {
+          "package_name": "com.example.haniumproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61806661968-d7u2fuqsokhilvasj6m7o3spg1b5n8de.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.haniumproject",
+            "certificate_hash": "86a9165490ee8b5d228cd8d18036839d5e7fc38d"
+          }
+        },
+        {
+          "client_id": "61806661968-688l4h69qms16ge0jngbj64bbmcd8tia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSjXcbWFi9nVGHvUE6Q7MCKtehsOE7GbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61806661968-688l4h69qms16ge0jngbj64bbmcd8tia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

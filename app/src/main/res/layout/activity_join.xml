@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signup"/>
+
+    <EditText
+        android:id="@+id/join_name"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="이름"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/line"/>
+
+    <EditText
+        android:id="@+id/join_id"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="아이디"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line"/>
+
+    <EditText
+        android:id="@+id/join_password"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line"/>
+
+    <EditText
+        android:id="@+id/robot_number"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="구급상자 번호"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line"/>
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/path">
+    </ImageView>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/join_joinbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/join"
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/join_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>

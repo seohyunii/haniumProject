@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menubar">
+
+        <ImageButton
+            android:id="@+id/menu_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:background = "#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp">
+
+    <ImageButton
+        android:id="@+id/menu_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/medicon"
+        android:layout_marginRight="20dp"
+        >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/menu_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pharmacyicon"
+        android:text="약정보">
+    </ImageButton>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/menu_medinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/medlist"
+            android:layout_marginRight="20dp">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/menu_calc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menucalc"
+            android:text="약정보">
+        </ImageButton>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/path"
+        android:layout_gravity="center"></ImageView>
+
+    <ImageButton
+        android:id="@+id/qmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnn"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="bottom|end" />
+
+</LinearLayout>
